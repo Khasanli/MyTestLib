@@ -1,0 +1,84 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestLibraryFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TestClass",
+        "printedName": "TestClass",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestClass",
+                "printedName": "TestLibraryFramework.TestClass",
+                "usr": "s:20TestLibraryFramework0A5ClassC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20TestLibraryFramework0A5ClassCACycfc",
+            "mangledName": "$s20TestLibraryFramework0A5ClassCACycfc",
+            "moduleName": "TestLibraryFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "test",
+            "printedName": "test()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20TestLibraryFramework0A5ClassC4testyyF",
+            "mangledName": "$s20TestLibraryFramework0A5ClassC4testyyF",
+            "moduleName": "TestLibraryFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20TestLibraryFramework0A5ClassC",
+        "mangledName": "$s20TestLibraryFramework0A5ClassC",
+        "moduleName": "TestLibraryFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/khayalahasanli\/Desktop\/TestLibraryFramework\/TestLibraryFramework\/TestClass.swift",
+      "kind": "StringLiteral",
+      "offset": 203,
+      "length": 8,
+      "value": "\"tested\""
+    }
+  ]
+}
