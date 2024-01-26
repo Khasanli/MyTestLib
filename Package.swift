@@ -12,8 +12,8 @@ let package = Package(
     ],
     targets: [
         .target(name: "MyTestLib",
-               dependencies: ["MyTestLib"]),
-        .binaryTarget(name: "MyTestLib", path: "./Sources/MyTestLib.xcframework"),
+               dependencies: ["MyTestLib-Swift"]),
+        .binaryTarget(name: "MyTestLib-Swift", path: "./Sources/MyTestLib-Swift.xcframework"),
         
     ]
 )
