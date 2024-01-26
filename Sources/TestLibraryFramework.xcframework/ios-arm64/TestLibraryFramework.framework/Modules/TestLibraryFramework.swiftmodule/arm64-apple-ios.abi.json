@@ -59,6 +59,26 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "testSecond",
+            "printedName": "testSecond()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20TestLibraryFramework0A5ClassC10testSecondyyF",
+            "mangledName": "$s20TestLibraryFramework0A5ClassC10testSecondyyF",
+            "moduleName": "TestLibraryFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -77,6 +97,13 @@
       "filePath": "\/Users\/khayalahasanli\/Desktop\/TestLibraryFramework\/TestLibraryFramework\/TestClass.swift",
       "kind": "StringLiteral",
       "offset": 203,
+      "length": 8,
+      "value": "\"tested\""
+    },
+    {
+      "filePath": "\/Users\/khayalahasanli\/Desktop\/TestLibraryFramework\/TestLibraryFramework\/TestClass.swift",
+      "kind": "StringLiteral",
+      "offset": 269,
       "length": 8,
       "value": "\"tested\""
     }

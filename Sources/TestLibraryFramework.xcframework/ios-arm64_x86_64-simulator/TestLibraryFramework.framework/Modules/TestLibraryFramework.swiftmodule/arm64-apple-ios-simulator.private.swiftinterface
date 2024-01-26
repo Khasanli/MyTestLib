@@ -11,5 +11,6 @@ import _SwiftConcurrencyShims
 public class TestClass {
   public init()
   public func test()
+  public func testSecond()
   @objc deinit
 }
