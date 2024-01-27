@@ -3,18 +3,40 @@
 // testing
 import PackageDescription
 
+import PackageDescription
+
 let package = Package(
     name: "MyTestLib",
     products: [
-        .library(name: "MyTestLib", targets: ["MyTestLib"])
+        // Define 'MyTestLib' as a library product.
+        .library(
+            name: "MyTestLib",
+            targets: ["MyTestLib"]
+        ),
+        // Also define 'TestLibraryFramework' as a library product if you want it to be importable.
+        .library(
+            name: "TestLibraryFramework",
+            targets: ["TestLibraryFramework"]
+        ),
     ],
     dependencies: [
+        // List your package dependencies here, if any.
     ],
     targets: [
-        .target(name: "MyTestLib",
-               dependencies: ["TestLibraryFramework"]),
-        .binaryTarget(name: "TestLibraryFramework", path: "./Sources/TestLibraryFramework.xcframework"),
-        
+        // Define the 'MyTestLib' target with 'TestLibraryFramework' as a dependency.
+        .target(
+            name: "MyTestLib",
+            dependencies: ["TestLibraryFramework"]
+        ),
+        // Define the 'TestLibraryFramework' binary target.
+        .binaryTarget(
+            name: "TestLibraryFramework",
+            path: "./Sources/TestLibraryFramework.xcframework"
+        ),
+        // If you have tests, define a test target.
+        .testTarget(
+            name: "MyTestLibTests",
+            dependencies: ["MyTestLib"]
+        ),
     ]
 )
-
