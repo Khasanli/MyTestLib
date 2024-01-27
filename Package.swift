@@ -3,18 +3,36 @@
 // testing
 import PackageDescription
 
+//let package = Package(
+//    name: "MyTestLib",
+//    products: [
+//        .library(name: "MyTestLib", targets: ["MyTestLib"])
+//    ],
+//    dependencies: [
+//    ],
+//    targets: [
+//        .target(name: "MyTestLib",
+//               dependencies: ["TestLibraryFramework"]),
+//        .binaryTarget(name: "TestLibraryFramework", path: "./Sources/TestLibraryFramework.xcframework"),
+//        
+//    ]
+//)
+//
+
 let package = Package(
-    name: "TestLibraryFramework",
+    name: "MyTestLib",
     products: [
-        .library(name: "TestLibraryFramework", targets: ["MyTestLib"])
-    ],
-    dependencies: [
+        .library(
+            name: "MyTestLib",
+            targets: ["MyTestLib", "TestLibraryFramework"]
+        )
     ],
     targets: [
         .target(name: "MyTestLib",
-               dependencies: ["TestLibraryFramework"]),
-        .binaryTarget(name: "TestLibraryFramework", path: "./Sources/TestLibraryFramework.xcframework"),
-        
+                       dependencies: ["TestLibraryFramework"]),
+        .binaryTarget(
+            name: "TestLibraryFramework",
+            path: "./Sources/TestLibraryFramework.xcframework"
+        )
     ]
 )
-
