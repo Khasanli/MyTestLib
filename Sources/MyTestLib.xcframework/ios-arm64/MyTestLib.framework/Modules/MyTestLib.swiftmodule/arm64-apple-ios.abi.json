@@ -1,0 +1,111 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyTestLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TestClass",
+        "printedName": "TestClass",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestClass",
+                "printedName": "MyTestLib.TestClass",
+                "usr": "s:9MyTestLib0B5ClassC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9MyTestLib0B5ClassCACycfc",
+            "mangledName": "$s9MyTestLib0B5ClassCACycfc",
+            "moduleName": "MyTestLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "test",
+            "printedName": "test()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyTestLib0B5ClassC4testyyF",
+            "mangledName": "$s9MyTestLib0B5ClassC4testyyF",
+            "moduleName": "MyTestLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "testSecond",
+            "printedName": "testSecond()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyTestLib0B5ClassC10testSecondyyF",
+            "mangledName": "$s9MyTestLib0B5ClassC10testSecondyyF",
+            "moduleName": "MyTestLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9MyTestLib0B5ClassC",
+        "mangledName": "$s9MyTestLib0B5ClassC",
+        "moduleName": "MyTestLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/khayalahasanli\/Desktop\/TestLibraryFramework\/MyTestLib\/TestClass.swift",
+      "kind": "StringLiteral",
+      "offset": 178,
+      "length": 8,
+      "value": "\"tested\""
+    },
+    {
+      "filePath": "\/Users\/khayalahasanli\/Desktop\/TestLibraryFramework\/MyTestLib\/TestClass.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 8,
+      "value": "\"tested\""
+    }
+  ]
+}
